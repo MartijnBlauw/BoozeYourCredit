@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		4811526E2007A9DB008F6109 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4811526D2007A9DB008F6109 /* AppDelegate.swift */; };
-		481152702007A9DB008F6109 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4811526F2007A9DB008F6109 /* ViewController.swift */; };
 		481152732007A9DB008F6109 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 481152712007A9DB008F6109 /* Main.storyboard */; };
 		481152752007A9DB008F6109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481152742007A9DB008F6109 /* Assets.xcassets */; };
 		481152782007A9DB008F6109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 481152762007A9DB008F6109 /* LaunchScreen.storyboard */; };
+		481152842007AAEA008F6109 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 481152832007AAEA008F6109 /* GoogleService-Info.plist */; };
+		481152862007AE85008F6109 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481152852007AE85008F6109 /* IndexViewController.swift */; };
+		481152882007AF02008F6109 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481152872007AF02008F6109 /* LoginViewController.swift */; };
+		4811528A2007AFBF008F6109 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481152892007AFBF008F6109 /* MapViewController.swift */; };
+		4811528C2007B181008F6109 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4811528B2007B181008F6109 /* HistoryTableViewController.swift */; };
+		4811528E2007C93E008F6109 /* CollectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4811528D2007C93E008F6109 /* CollectViewController.swift */; };
+		481152902007CB4F008F6109 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4811528F2007CB4F008F6109 /* HelpViewController.swift */; };
+		D94ED336FE26D0AF929FCA06 /* Pods_BoozeYourCredit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A516AF5993C2BBC255551B1C /* Pods_BoozeYourCredit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F845718DE4AEF6C7E22AFFC /* Pods-BoozeYourCredit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoozeYourCredit.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoozeYourCredit/Pods-BoozeYourCredit.release.xcconfig"; sourceTree = "<group>"; };
 		4811526A2007A9DB008F6109 /* BoozeYourCredit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoozeYourCredit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4811526D2007A9DB008F6109 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4811526F2007A9DB008F6109 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		481152722007A9DB008F6109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		481152742007A9DB008F6109 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		481152772007A9DB008F6109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		481152792007A9DB008F6109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		481152832007AAEA008F6109 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		481152852007AE85008F6109 /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		481152872007AF02008F6109 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		481152892007AFBF008F6109 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4811528B2007B181008F6109 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		4811528D2007C93E008F6109 /* CollectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectViewController.swift; sourceTree = "<group>"; };
+		4811528F2007CB4F008F6109 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		9BD9B0858087BA315E0EF14A /* Pods-BoozeYourCredit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoozeYourCredit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoozeYourCredit/Pods-BoozeYourCredit.debug.xcconfig"; sourceTree = "<group>"; };
+		A516AF5993C2BBC255551B1C /* Pods_BoozeYourCredit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoozeYourCredit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D94ED336FE26D0AF929FCA06 /* Pods_BoozeYourCredit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				4811526C2007A9DB008F6109 /* BoozeYourCredit */,
 				4811526B2007A9DB008F6109 /* Products */,
+				CC0EF19F1975ACECC460D355 /* Pods */,
+				DFB4C2B47BB21CCCE298079A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +74,36 @@
 			isa = PBXGroup;
 			children = (
 				4811526D2007A9DB008F6109 /* AppDelegate.swift */,
-				4811526F2007A9DB008F6109 /* ViewController.swift */,
 				481152712007A9DB008F6109 /* Main.storyboard */,
+				4811528F2007CB4F008F6109 /* HelpViewController.swift */,
+				4811528D2007C93E008F6109 /* CollectViewController.swift */,
+				4811528B2007B181008F6109 /* HistoryTableViewController.swift */,
+				481152892007AFBF008F6109 /* MapViewController.swift */,
+				481152872007AF02008F6109 /* LoginViewController.swift */,
+				481152852007AE85008F6109 /* IndexViewController.swift */,
 				481152742007A9DB008F6109 /* Assets.xcassets */,
 				481152762007A9DB008F6109 /* LaunchScreen.storyboard */,
 				481152792007A9DB008F6109 /* Info.plist */,
+				481152832007AAEA008F6109 /* GoogleService-Info.plist */,
 			);
 			path = BoozeYourCredit;
+			sourceTree = "<group>";
+		};
+		CC0EF19F1975ACECC460D355 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BD9B0858087BA315E0EF14A /* Pods-BoozeYourCredit.debug.xcconfig */,
+				1F845718DE4AEF6C7E22AFFC /* Pods-BoozeYourCredit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFB4C2B47BB21CCCE298079A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A516AF5993C2BBC255551B1C /* Pods_BoozeYourCredit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4811527C2007A9DB008F6109 /* Build configuration list for PBXNativeTarget "BoozeYourCredit" */;
 			buildPhases = (
+				CFBDC2459A8495226A867093 /* [CP] Check Pods Manifest.lock */,
 				481152662007A9DB008F6109 /* Sources */,
 				481152672007A9DB008F6109 /* Frameworks */,
 				481152682007A9DB008F6109 /* Resources */,
+				F5ABA267C8771BBFBD28B1E3 /* [CP] Embed Pods Frameworks */,
+				D1BB3D1431190F86432EB1DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				481152782007A9DB008F6109 /* LaunchScreen.storyboard in Resources */,
+				481152842007AAEA008F6109 /* GoogleService-Info.plist in Resources */,
 				481152752007A9DB008F6109 /* Assets.xcassets in Resources */,
 				481152732007A9DB008F6109 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +177,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CFBDC2459A8495226A867093 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoozeYourCredit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1BB3D1431190F86432EB1DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoozeYourCredit/Pods-BoozeYourCredit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5ABA267C8771BBFBD28B1E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BoozeYourCredit/Pods-BoozeYourCredit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoozeYourCredit/Pods-BoozeYourCredit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		481152662007A9DB008F6109 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				481152702007A9DB008F6109 /* ViewController.swift in Sources */,
+				481152902007CB4F008F6109 /* HelpViewController.swift in Sources */,
+				481152882007AF02008F6109 /* LoginViewController.swift in Sources */,
 				4811526E2007A9DB008F6109 /* AppDelegate.swift in Sources */,
+				481152862007AE85008F6109 /* IndexViewController.swift in Sources */,
+				4811528A2007AFBF008F6109 /* MapViewController.swift in Sources */,
+				4811528C2007B181008F6109 /* HistoryTableViewController.swift in Sources */,
+				4811528E2007C93E008F6109 /* CollectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +383,7 @@
 		};
 		4811527D2007A9DB008F6109 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BD9B0858087BA315E0EF14A /* Pods-BoozeYourCredit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +398,7 @@
 		};
 		4811527E2007A9DB008F6109 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F845718DE4AEF6C7E22AFFC /* Pods-BoozeYourCredit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
